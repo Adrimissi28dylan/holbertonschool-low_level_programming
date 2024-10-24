@@ -14,7 +14,7 @@ int main(void)
 	int last;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = 980;
 	last = n % 10;
 
 	if (last > 5)
